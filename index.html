@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        h1{
+            font-family: 'Play', sans-serif;
+            text-align: center;
+            text-shadow:  4px 7px 6px #aaa;
+            border-bottom: solid 4px;
+            padding-bottom: 3px;
+        }
+        .wt{
+            height: 200px;
+            width: 200px;
+        }
+        .sun{
+            background: url(sun.jpg) center / cover;
+        }
+        .sun:hover{
+            border-radius: 40px;
+            background: url(sun1.jpg) center / cover;
+        }
+        .snow{
+            background: url(snow.jpg)center / cover;
+        }
+        .snow:hover{
+            border-radius: 40px;
+            background: url(snow1.jpg) center / cover;
+        }
+        .autumn{
+            background: url(autumn1.jpg)center / cover;
+        }
+        .autumn:hover{
+            background: url(autumn.jpg)center / cover;
+            border-radius: 40px;
+        }
+        .spring{
+            background: url(spring1.jpg)center / cover;
+        }
+        .spring:hover{
+            border-radius: 40px;
+            background: url(spring.jpg)center / cover;
+        }
+    </style>
+</head>
+<body>
+    <h1>Change of weather</h1>
+    <div class="wt sun"></div>
+    <div class="wt snow"></div>
+    <div class="wt autumn"></div>
+    <div class="wt spring"></div>
+</body>
+</html>
